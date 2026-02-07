@@ -1,0 +1,12 @@
+export default {
+  darkMode: "class",
+  content: ["./index.html", "./src/**/*.{js,jsx}"],
+  theme: {
+    extend: {
+      boxShadow: {
+        soft: "0 12px 30px rgba(0,0,0,0.08)",
+      },
+    },
+  },
+  plugins: [],
+};
